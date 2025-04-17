@@ -21,11 +21,6 @@ uint8_t bufferOUT[BUF_SIZE] __attribute__((section(".fast"))) = "USART-DMA OK!\r
 // Массив для копирования строки, расположен в секции ".fast"
 uint8_t bufferIN[BUF_SIZE] __attribute__((section(".fast")));
 
-// Флаги и переменные для контроля передачи данных
-volatile uint8_t transfer_complete = 1;   // Флаг завершения передачи DMA по USART1
-volatile uint32_t systick_counter = 0;    // Счётчик для отсчёта времени SysTick
-
-
 
 /**
  * @brief Основная функция программы. Инициализирует систему, выполняет копирование данных и настраивает периферию.
@@ -117,12 +112,15 @@ void DMA2_Stream7_USART1_Init(void) {
 void DMA2_Stream7_IRQHandler(void) {
     if (DMA2->HISR & DMA_HISR_TCIF7) {    // Проверяем флаг завершения передачи
         DMA2->HIFCR |= DMA_HIFCR_CTCIF7;  // Сброс флага завершения передачи
-        transfer_complete = 1;            // Устанавливаем флаг готовности к следующей передаче
     }
 }
 
 
-
+ /**
+  * @brief Функция задержки в миллисекундах.
+  * Использует SysTick для создания задержки.
+  * @param ms: количество миллисекунд для задержки.
+  */
 void delay_ms(uint32_t ms) {
   while (ms)
   {

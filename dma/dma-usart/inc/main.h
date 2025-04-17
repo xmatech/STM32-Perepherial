@@ -15,8 +15,8 @@
 
 
 /* Прототипы функций */ 
-void rcc_init(void); // Настройка тактирования
-void usart1_init(void);  // Настройка USART1
-void DMA2_Stream0_MEM2MEM_Init(void);// Инициализация DMA2 Stream 0
-void DMA2_Stream7_USART1_Init(void);
-void delay_ms(uint32_t ms);
+void rcc_init(void);                  // Настройка тактирования
+void usart1_init(void);               // Настройка USART1
+void DMA2_Stream0_MEM2MEM_Init(void); // Инициализация DMA2 Stream 0
+void DMA2_Stream7_USART1_Init(void);  // Инициализация DMA2 Stream 7
+void delay_ms(uint32_t ms);           // Функция задержки в миллисекундах

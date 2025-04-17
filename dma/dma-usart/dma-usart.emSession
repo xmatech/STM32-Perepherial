@@ -84,10 +84,10 @@
  <Watch1>
   <Watches active="1" update="Never">
    <Watchpoint expression="capture_ms" name="capture_ms" radix="-1" linenumber="20" filename="src/tim.c"/>
-   <Watchpoint expression="capture_s" name="capture_s" radix="-1" linenumber="433" filename="Src/main.c"/>
-   <Watchpoint expression="msTicks" name="msTicks" radix="10" linenumber="163" filename="Src/main.c"/>
-   <Watchpoint expression="returnCode" name="returnCode" radix="10" linenumber="171" filename="Src/main.c"/>
-   <Watchpoint expression="SystemCoreClock" name="SystemCoreClock" radix="10" linenumber="171" filename="Src/main.c"/>
+   <Watchpoint expression="capture_s" name="capture_s" radix="-1" linenumber="432" filename="Src/main.c"/>
+   <Watchpoint expression="msTicks" name="msTicks" radix="10" linenumber="162" filename="Src/main.c"/>
+   <Watchpoint expression="returnCode" name="returnCode" radix="10" linenumber="170" filename="Src/main.c"/>
+   <Watchpoint expression="SystemCoreClock" name="SystemCoreClock" radix="10" linenumber="170" filename="Src/main.c"/>
   </Watches>
  </Watch1>
  <Watch2>
@@ -100,11 +100,11 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="21" useTextEdit="1" path="inc/main.h" left="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="1" y="71" useTextEdit="1" path="Src/rcc_init.c" left="0" top="16" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="101" y="95" useTextEdit="1" path="Src/main.c" left="0" selected="1" top="78" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="73" y="21" useTextEdit="1" path="inc/main.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="1" y="71" useTextEdit="1" path="Src/rcc_init.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="39" y="112" useTextEdit="1" path="Src/main.c" left="0" selected="1" top="83" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="30" y="136" useTextEdit="1" path="STM32F4xx/Device/Source/system_stm32f4xx.c" left="0" top="116" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="25" y="2021" useTextEdit="1" path="CMSIS_5/CMSIS/Core/Include/core_cm4.h" left="0" top="324" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="776" useTextEdit="1" path="CMSIS_5/CMSIS/Core/Include/core_cm4.h" left="0" top="756" codecName="Default"/>
  </Files>
  <EMStudioWindow activeProject="dma-adc-pwm-control" fileDialogDefaultFilter="*" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/MAmanov/Documents/SEGGER Embedded Studio Projects/Part1-Peripherial/adc/adc-watchdog/src" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>
