@@ -86,11 +86,12 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="17" y="39" useTextEdit="1" path="Src/main.c" left="0" top="15" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="22" useTextEdit="1" path="src/tim.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="17" y="39" useTextEdit="1" path="Src/main.c" left="0" selected="1" top="3" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="22" useTextEdit="1" path="src/tim.c" left="0" top="15" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Src/rcc_init.c" left="0" top="29" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="58" useTextEdit="1" path="src/gpio.c" left="0" selected="1" top="32" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="58" useTextEdit="1" path="src/gpio.c" left="0" top="40" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="inc/main.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="src/systick.c" left="0" top="0" codecName="Default"/>
  </Files>
  <EMStudioWindow activeProject="timer-led" fileDialogDefaultFilter="*" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/MAmanov/Documents/SEGGER Embedded Studio Projects/Part1-Peripherial/spi-flash-memory/inc" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>

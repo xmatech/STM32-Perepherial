@@ -91,7 +91,7 @@
  <Files>
   <SessionOpenFile windowGroup="DockEditLeft" x="24" y="16" useTextEdit="1" path="inc/main.h" left="0" top="0" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="21" y="7" useTextEdit="1" path="Src/rcc_init.c" left="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="139" useTextEdit="1" path="Src/main.c" left="0" selected="1" top="130" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="82" y="10" useTextEdit="1" path="Src/main.c" left="0" selected="1" top="0" codecName="Default"/>
  </Files>
  <EMStudioWindow activeProject="dma-adc-pwm-control" fileDialogDefaultFilter="*" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/MAmanov/Documents/SEGGER Embedded Studio Projects/Part1-Peripherial/adc/adc-watchdog/src" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>
